@@ -209,7 +209,7 @@ sbt:Hello> ~testQuick
 
 ### Write a test
 
-Leaving the previous command running, create a file named `src/test/scala/HelloSpec.scala`
+Leaving the previous command running, we will write a test. Make sure you are in the scala testing subfolder of the sbt project structure, namely `src/test/scala/`, or it will fail. Create a file named `src/test/scala/HelloSpec.scala`
 using an editor:
 
 @@snip [scalatest]($root$/src/sbt-test/ref/example-scalatest/src/test/scala/HelloSpec.scala) {}
